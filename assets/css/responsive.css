@@ -22,6 +22,11 @@
   .header__logo-sub {
     justify-content: center;
   }
+
+  .container {
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  }
+
   .btn {
     align-self: center;
     border: 1px solid var(--text-color);
