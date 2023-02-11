@@ -1,0 +1,39 @@
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+  .main {
+    height: 100%;
+  }
+  .task {
+    max-height: calc(100vh / 3);
+  }
+}
+
+@media (max-width: 46.1875em) {
+  .main {
+    height: 100%;
+  }
+  #header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .header__logo-sub {
+    justify-content: center;
+  }
+  .btn {
+    align-self: center;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+  }
+  .task {
+    height: calc(100vh / 2.4);
+  }
+  .task-list:nth-child(2) {
+    height: calc(100vh - 450px);
+  }
+  .task:nth-child(3) .task-list {
+    height: calc(100vh - 500px);
+  }
+}
