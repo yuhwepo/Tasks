@@ -32,13 +32,19 @@
     border: 1px solid var(--text-color);
     border-radius: 5px;
   }
+
   .task {
     height: calc(100vh / 2.4);
   }
+
   .task-list:nth-child(2) {
     height: calc(100vh - 450px);
   }
+
   .task:nth-child(3) .task-list {
     height: calc(100vh - 500px);
+  }
+  .task-form {
+    width: calc(1280px / 3.5);
   }
 }
