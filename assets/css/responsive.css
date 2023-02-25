@@ -1,9 +1,6 @@
-@media (min-width: 46.25em) and (max-width: 63.9375em) {
+@media (min-width: 46.25em) and (max-width: 79.4375em) {
   .main {
     height: 100%;
-  }
-  .task {
-    max-height: calc(100vh / 3);
   }
 }
 
